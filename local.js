@@ -56,7 +56,7 @@ var duration = moment.duration(between_now_and_event).minutes();
 const marquee_message =
   `<li id="xkcd"><marquee>
 
-  Asteroid Day ${24} days  <span id="days" class='part'>${duration}</span>min
+  Asteroid Day ${24} days  <span id="years" class='part'>${duration}</span>min
 
   </marquee></li>`;
 
